@@ -10,7 +10,7 @@ const TodoTask = require("./models/TodoTask");
 mongoose.set("useFindAndModify",false);
 mongoose.connect(process.env.DB_CONNECT, { useNewUrlParser: true, useUnifiedTopology: true }, () => {
     console.log("Successfully connected to database");
-    app.listen(3000, () => console.log("Server is up and running on port 3000!"));
+    app.listen(process.env.PORT || 3000, () => console.log("Server is up and running on port 3000!"));
 });
 
 const app = express();
