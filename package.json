@@ -1,0 +1,30 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "This is a simple to do list web application built using NodeJS and MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayam2801/To-Do-List-App.git"
+  },
+  "author": "Sayam Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sayam2801/To-Do-List-App/issues"
+  },
+  "homepage": "https://github.com/Sayam2801/To-Do-List-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
